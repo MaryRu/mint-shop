@@ -26,33 +26,33 @@
         <ul>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类1</span>
             </a>
           </li>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类2</span>
             </a>
           </li>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类3</span>
             </a>
           </li>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类4</span>
             </a>
           </li>
@@ -60,33 +60,33 @@
         <ul>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类5</span>
             </a>
           </li>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类6</span>
             </a>
           </li>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类7</span>
             </a>
           </li>
           <li>
             <a href="">
-              <i>
+              <div>
                 <img src="../assets/img/classify1.png" alt="">
-              </i>
+              </div>
               <span>分类8</span>
             </a>
           </li>
@@ -163,6 +163,63 @@
         </ul>
       </mt-swipe-item>
     </mt-swipe>
+    <!-- 商品 -->
+    <div class="goods">
+      <div class="banner">
+        <img src="../assets/img/banner1.jpg" alt="">
+      </div>
+      <div>
+        <div>
+          <h3>精品推荐</h3>
+        </div>
+        <iscroll-view ref="scrollView" class="news scroll-view sub-tabs-area" :options="{click: true, scrollX: true,mouseWheel: true, probeType: 1}" :scrollerClass="{'scroller':true}">
+          <div class="tab-item clearfix" >
+            <router-link to="">
+              <div class="img">
+                <img src="../assets/img/goods1.jpg" alt="">
+              </div>
+              <div class="desc">
+                <h4></h4>
+                <p></p>
+              </div>
+            </router-link>
+          </div>
+          <div class="tab-item clearfix" >
+            <router-link to="">
+              <div class="img">
+                <img src="../assets/img/goods1.jpg" alt="">
+              </div>
+              <div class="desc">
+                <h4></h4>
+                <p></p>
+              </div>
+            </router-link>
+          </div>
+          <div class="tab-item clearfix" >
+            <router-link to="">
+              <div class="img">
+                <img src="../assets/img/goods1.jpg" alt="">
+              </div>
+              <div class="desc">
+                <h4></h4>
+                <p></p>
+              </div>
+            </router-link>
+          </div>
+          <div class="tab-item clearfix" >
+            <router-link to="">
+              <div class="img">
+                <img src="../assets/img/goods1.jpg" alt="">
+              </div>
+              <div class="desc">
+                <h4></h4>
+                <p></p>
+              </div>
+            </router-link>
+          </div>
+        </iscroll-view>
+      </div>
+    </div>
     <!-- 底部bar -->
     <mt-tabbar fixed>
       <mt-tab-item id="home">
